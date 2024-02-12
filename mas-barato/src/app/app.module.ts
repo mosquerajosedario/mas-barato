@@ -5,10 +5,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { MenuLateralComponent } from './menu-lateral/menu-lateral.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MenuLateralComponent
   ],
   imports: [
     BrowserModule,
